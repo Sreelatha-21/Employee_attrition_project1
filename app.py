@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 import numpy as np
 #Load the model and label encoder
-model = joblib.load("attrition_model.pkl")
+model = joblib.load(" attrition_model.pkl")
 label_encoder = joblib.load("label_encoder.pkl")
 feature_columns = joblib.load("feature_columns.pkl")
 st.title("Employee Attrition Prediction")
